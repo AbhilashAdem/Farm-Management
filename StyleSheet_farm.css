@@ -1,0 +1,47 @@
+﻿body {
+}
+#farm_maincontent
+{
+    width:100%;
+    display:flex;
+    margin-top: 10px;
+}
+
+
+#Left_content
+{
+    width:20%;
+    display:inline;
+}
+#right_content
+{
+   width:80%;
+   display:inline;
+}
+
+.tableauPlaceholder, .tableauViz{
+    max-width: 100% !important;
+}
+
+#Left_content li{
+    padding: 10px;
+    margin-top: 2px;
+    border: 1px solid #3D9587;
+    border-radius: 3px;
+    background-color: #3D9587;
+    float: none !important;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+}
+
+#Left_content li:hover{
+    
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.li_lbl_active{
+    border: 2px solid black !important;
+    border-radius: 5px !important;
+}

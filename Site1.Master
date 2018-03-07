@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="FarmManagement.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="StyleSheet1.css" />
+    <style type="text/css">
+        
+        .auto-style1 {
+            width: 120px;
+            height: 46px;
+        }
+        
+        .auto-style4 {
+            width: 121px;
+        }
+        .auto-style5 {
+            width: 120px;
+        }
+        
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <header> 
+        <div class="header_top">
+             <table style="width:100% ; height:150px">
+                 <tr>
+                  
+                     <td> <h1 style="text-align:left; font-size:xx-large; color:#0B70A8 ; font-family:'Baskerville Old Face'">&nbsp;&nbsp;&nbsp;&nbsp; INGENIOUS FARM SYSTEM</h1></td>
+                     <td></td>
+                 </tr>
+             </table><br />
+           </div>
+        <div class="header_bottom">
+             <nav>
+              <ul class="master_ul">                  
+                <li class="master_li auto-style1"><a href="Home.aspx">Home</a></li>
+                <li class="auto-style5"><a href="FarmData.aspx">Farm Data</a></li>
+                <li class="auto-style5"><a href="CropData.aspx">Crop Data</a></li>
+                <li class="auto-style4"><a href="Buy_Sell.aspx">Buy & Sell</a></li>
+                <li class="auto-style5"><a href="About_Us.aspx">About Us </a></li>
+              </ul>
+             </nav>
+        </div>
+    </header>
+    <div id="main">
+    <div id="content">
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+             <p>
+                 <br />
+             </p>
+             <p>
+             </p>
+             <p>
+             </p>
+             <p>
+             </p>
+             <p>
+             </p>
+             <p>
+             </p>
+        
+        </asp:ContentPlaceHolder>
+       
+       </div>
+    <div class="push"></div>
+    </div>
+    <footer class="footer"> <h5 style="text-align:center"> copyright @ Ingenious Farm Systems Limited</h5>    
+   <h5 style="text-align:center ; align-content:center"> 
+   <a href="Home.aspx">Home</a> || <a href="FarmData.aspx">Farm Data</a>||<a href="CropData.aspx">Crop Data</a>|| <a href="Buy_Sell.aspx">Buy & Sell</a>|| <a href="About_Us.aspx">About Us </a>
+    </h5>
+       </footer>
+      
+    </form>
+</body>
+</html>

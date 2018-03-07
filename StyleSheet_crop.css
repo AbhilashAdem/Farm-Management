@@ -1,0 +1,44 @@
+﻿body {
+}
+
+.Crop_mainContent{
+     width:100%;
+    display:flex;
+    margin-top: 10px;
+}
+.Crop_leftContent{
+    
+    width:20%;
+    float:left;
+    display:inline;
+}
+.Crop_rightContent{
+
+    width:80%;
+    float:right;
+    display:inline;
+}
+.Crop_leftContent li{
+    list-style-type: none;
+    text-align: center;
+    background-color: #3D9587;
+    border : 1px solid 1px #3D9587;
+    padding: 10px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    float: none;
+    color:white;
+}
+.Crop_leftContent li:hover{
+    border-radius:5px;
+    border:3px solid black;
+}
+
+.tableauPlaceholder, .tableauViz{
+    max-width: 100% !important;
+}
+
+.li_lbl_active{
+    border: 2px solid black !important;
+    border-radius: 5px !important;
+}

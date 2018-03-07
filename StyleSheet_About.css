@@ -1,0 +1,30 @@
+﻿body {
+}
+.Abt_mainContent
+{
+    max-width:100%;
+    padding:10px;
+}
+.Abt_content{
+    margin:80px;
+}
+.AbtUs_ppl
+{
+    height: 250px;
+    margin-left: 30px;
+    margin-bottom:20px;
+
+}
+.ppl_pics{
+    display: inline;
+    width: 30%;
+    height: 100%;
+    float: left;
+    border:solid 3px #406753;
+    margin-left: 15px;
+}
+.ppl_pic_dis{
+    width: 95%;
+    height: 230px;
+    padding: 10px 10px 10px 10px;
+}

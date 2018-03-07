@@ -1,0 +1,49 @@
+﻿body {
+}
+.BS_mainContent{
+    width:100%;
+    display:flex;
+   margin-top: 20px;
+}
+.BS_leftContent
+{
+ 
+     width: 20%;
+     display:inline;
+     margin-right: 10px;
+}
+.BS_rightContent
+{
+   
+     width: 80%;
+     display:inline;
+     height:100%;
+}
+.BS_leftContent li
+{
+    list-style-type: none;
+    text-align: center;
+    background-color: #3D9587;
+    border : 1px solid 1px #3D9587;
+    padding: 10px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    float: none;
+    color:white;
+}
+.BS_leftContent li:hover{
+    
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.buyContent .sellContent
+{
+    max-width: 100%;
+    padding: 11px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+.li_lbl_active{
+    border: 2px solid black !important;
+    border-radius: 5px !important;
+}
